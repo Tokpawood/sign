@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projet Js</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="./script.js"></script>
+    <form>
+        <label for="name">Nom</label>
+        <input type="text" id="name" placeholder="Entrez votre nom" autocomplete="additional-name" autofocus>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Saisissez votre address E-mail" autofocus>
+        <label for="tel">Téléphone</label>
+        <input type="tel" id="tel" placeholder="Entrez un numéro de Téléphone">
+        <label for="password">Mot de Passe</label>
+        <input type="password" id="password" placeholder="Saisissez votre mot de passe">
+        <div id="errorBox"></div>
+        <input type="submit" value="Envoyer" id="submit" size="4">
+    </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
